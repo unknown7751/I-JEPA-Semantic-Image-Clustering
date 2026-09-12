@@ -1,0 +1,14 @@
+pandas
+requests
+Pillow
+torch
+transformers
+numpy
+faiss-cpu
+umap-learn
+hdbscan
+scikit-learn
+matplotlib
+tqdm
+ipython
+jupyter

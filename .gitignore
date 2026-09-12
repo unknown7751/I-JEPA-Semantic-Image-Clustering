@@ -1,0 +1,10 @@
+data/embeddings/
+data/index/
+__pycache__/
+.ipynb_checkpoints/
+venv/
+notebooks/data/embeddings/
+notebooks/data/images
+notebooks/data/index
+notebooks/data/metadata
+controlled_dataset/
