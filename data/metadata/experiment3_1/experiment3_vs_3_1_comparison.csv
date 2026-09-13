@@ -1,0 +1,9 @@
+Metric,Experiment 3,Experiment 3.1,Change
+Dataset size,3000,2654,-346.0
+Same-angle@5,93.34%,92.99%,-0.35
+Same-angle@10,92.74%,92.57%,-0.17
+Same-angle@20,92.38%,92.53%,0.15
+1-NN agreement,94.43%,93.63%,-0.8
+5-NN agreement,95.37%,95.06%,-0.31
+10-NN agreement,94.83%,94.76%,-0.07
+Chance-level same-label rate,20.34%,20.22%,-0.12

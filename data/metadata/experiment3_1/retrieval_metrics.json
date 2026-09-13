@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "duplicate_hamming_threshold": 4,
+  "model_id": "facebook/ijepa_vith14_1k",
+  "embedding_dimension": 1280,
+  "faiss_index_type": "IndexFlatIP",
+  "k_values": [
+    5,
+    10,
+    20
+  ],
+  "dataset_size_before_dedup": 3000,
+  "dataset_size_after_dedup": 2654,
+  "reused_notebook03_cache": false,
+  "experiment_3_original": {
+    "same_angle_at_k": {
+      "5": 0.9333999999999999,
+      "10": 0.9273666666666668,
+      "20": 0.9238166666666666
+    },
+    "knn_agreement": {
+      "1": 0.9443333333333334,
+      "5": 0.9536666666666667,
+      "10": 0.9483333333333334
+    },
+    "chance_level": 0.20335333333333333
+  },
+  "experiment_3_1_deduplicated": {
+    "same_angle_at_k": {
+      "5": 0.9299171062547099,
+      "10": 0.9256593820648078,
+      "20": 0.9253202712886208
+    },
+    "knn_agreement": {
+      "1": 0.9363225320271289,
+      "5": 0.950640542577242,
+      "10": 0.9476262245666918
+    },
+    "chance_level": 0.20218844712080952
+  }
+}

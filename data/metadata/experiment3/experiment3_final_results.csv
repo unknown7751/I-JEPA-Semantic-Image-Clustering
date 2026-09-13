@@ -1,0 +1,27 @@
+metric,value
+Dataset size (images used in this experiment),3000
+Number of angle classes,5
+Embedding dimension,1280
+Same-angle@5,0.9334
+Same-angle@10,0.9274
+Same-angle@20,0.9238
+Chance-level same-label rate,0.2034
+1-NN angle agreement,0.9443
+5-NN angle agreement,0.9537
+10-NN angle agreement,0.9483
+"Silhouette score (raw embeddings, angle labels, cosine)",0.3626
+"--- Direct HDBSCAN (1280-D, no UMAP) ---",
+  HDBSCAN clusters (direct),9
+  HDBSCAN noise % (direct),14.5
+  ARI (direct),0.4608
+  NMI (direct),0.5825
+  Mean purity (direct),0.848
+  Weighted purity (direct),0.61
+--- UMAP + HDBSCAN ---,
+  HDBSCAN clusters (UMAP+HDBSCAN),29
+  HDBSCAN noise % (UMAP+HDBSCAN),6.7
+  ARI (UMAP+HDBSCAN),0.6986
+  NMI (UMAP+HDBSCAN),0.7007
+  Mean purity (UMAP+HDBSCAN),0.884
+  Weighted purity (UMAP+HDBSCAN),0.952
+"Best swept ARI (UMAP+HDBSCAN, param sweep)",0.8122
